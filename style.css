@@ -9,8 +9,14 @@ body {
   min-height: 100vh;
   font-family: Spartan, sans-serif;
   font-size: 12px;
-  background-color: #c9ced3;
+  background-color: #ee9ca7;
   display: flex;
   justify-content: center;
   align-items: center;  
+}
+
+
+
+.img-container {
+
 }
