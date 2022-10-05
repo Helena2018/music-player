@@ -15,7 +15,11 @@ body {
   align-items: center;  
 }
 
-
+.player-container {
+  height: 500px;
+  width: 400px;
+  background-color: #ffdde1;
+}
 
 .img-container {
 
