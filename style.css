@@ -19,8 +19,35 @@ body {
   height: 500px;
   width: 400px;
   background-color: #ffdde1;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
 }
 
 .img-container {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  top: -50px;
+  left: 50px;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.3);
+}
 
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  margin: 5px 0 0;
 }
