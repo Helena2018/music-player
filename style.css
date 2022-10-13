@@ -78,6 +78,25 @@ h3 {
   top: -25px;
 }
 
+/* Controls */
+.player-controls {
+  position: relative;
+  top: -15px;
+  left: 120px;
+  width: 200px;
+}
+
+.fas {
+  font-size: 30px;
+  margin-right: 30px;
+  color: rgb(129, 129, 129);
+}
+
+.main-button {
+  font-size: 40px;
+  position: relative;
+  top: 3px;
+}
 
 
 /* Media Query */
