@@ -95,7 +95,7 @@ h3 {
 }
 
 .fas:hover {
-  color: #5d5c5c;
+  filter: brightness(80%);
 }
 
 .main-button {
