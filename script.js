@@ -8,9 +8,14 @@ const nextBtn = document.getElementById('next');
 
 let isPlaying = false;
 
-const song = [
+const songs = [
   {
-    name: 'metric"-1',
+    name: 'taylor-1',
+    displayName: 'Blank Space',
+    artist: 'Taylor Swift',
+  },
+  {
+    name: 'metric-1',
     displayName: 'Front Row (Remix)',
     artist: 'Metric/Jacinto Design',
   }
@@ -31,3 +36,14 @@ function pauseSong() {
 }
 
 playBtn.addEventListener('click', () => (isPlaying ? pauseSong() : playSong()));
+
+//Updated DOM 
+function loadSong(song) {
+  title.textContent = song.displayName;
+  artist.textContent = song.artist;
+  image.src = `img/${song.name}.jpg`;
+  music.src = `music/${song.name}.mp3`;
+}
+
+//On Load - Select Second song
+loadSong(songs[1]);
